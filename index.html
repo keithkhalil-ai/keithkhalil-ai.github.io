@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quick Toolkit — Free Browser-Based Utility Tools</title>
+<meta name="description" content="A collection of free, private, browser-based utility tools: check whether a photo leaks your GPS location, test if a link is a phishing scam, and decode YouTube error messages. No signup, no uploads, nothing leaves your device.">
+<meta name="keywords" content="free online tools, photo metadata checker, url safety checker, youtube error decoder, browser tools, privacy tools">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://keithkhalil-ai.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Quick Toolkit — Free Browser-Based Utility Tools">
+<meta property="og:description" content="Free private tools: photo GPS leak checker, phishing link checker, YouTube error decoder.">
+<meta property="og:url" content="https://keithkhalil-ai.github.io/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Quick Toolkit","url":"https://keithkhalil-ai.github.io/","description":"Free browser-based utility tools that run entirely on your device. No signup, no uploads.","publisher":{"@type":"Organization","name":"Quick Toolkit"},"hasPart":[
+{"@type":"WebApplication","name":"Photo Metadata Scanner","url":"https://keithkhalil-ai.github.io/photo-metadata-scanner/","description":"Check whether a photo's hidden EXIF metadata reveals your GPS location, device, or capture time."},
+{"@type":"WebApplication","name":"Is This Link Safe?","url":"https://keithkhalil-ai.github.io/site2-link-safe/","description":"Check any URL for phishing signals: punycode homographs, lookalike brands, IP hosts, hidden credentials."},
+{"@type":"WebApplication","name":"YouTube Error Decoder","url":"https://keithkhalil-ai.github.io/site3-yt-error-decoder/","description":"Paste a YouTube error and get the plain-English cause plus concrete fix steps."}]}
+</script>
+<style>
+  :root{--bg:#0b0f14;--card:#141a22;--line:#232c38;--fg:#e8edf4;--muted:#8b98a8;--accent:#4da3ff}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:0 16px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+  header{text-align:center;padding:52px 0 10px}
+  h1{font-size:clamp(1.8rem,5vw,2.5rem);margin:0 0 12px;letter-spacing:-.02em}
+  .sub{color:var(--muted);max-width:56ch;margin:0 auto}
+  .badge{display:inline-block;margin-top:16px;font-size:.8rem;color:#3ddc97;
+    border:1px solid rgba(61,220,151,.35);border-radius:999px;padding:5px 14px;background:rgba(61,220,151,.07)}
+  .adslot{margin:26px auto;max-width:728px;min-height:90px;border:1px dashed var(--line);border-radius:10px;
+    display:flex;align-items:center;justify-content:center;color:#3b4655;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+  .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin:28px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;
+    text-decoration:none;color:inherit;display:block;transition:border-color .18s,transform .18s}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .card .ico{font-size:1.8rem;margin-bottom:10px}
+  .card h2{margin:0 0 8px;font-size:1.1rem}
+  .card p{margin:0;color:var(--muted);font-size:.92rem}
+  .card .go{color:var(--accent);font-size:.85rem;margin-top:12px;display:block}
+  .about{margin-top:34px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .about h2{margin:0 0 12px;font-size:1.15rem}
+  .about p{color:var(--muted);margin:0 0 12px;font-size:.94rem}
+  .about p:last-child{margin-bottom:0}
+  footer{text-align:center;color:#4a5665;font-size:.82rem;margin-top:34px}
+  @media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Quick Toolkit</h1>
+  <p class="sub">Small, useful tools that run entirely inside your browser. Nothing to install,
+     no account to create, and no file ever leaves your device.</p>
+  <div class="badge">🔒 100% local — no uploads, no tracking</div>
+</header>
+
+<div class="adslot">Advertisement</div>
+
+<div class="grid">
+  <a class="card" href="./photo-metadata-scanner/">
+    <div class="ico">📷</div>
+    <h2>Does This Photo Leak Your Address?</h2>
+    <p>Drop in a photo and see whether its hidden metadata gives away your GPS location,
+       your device, and exactly when you took it. Strip it and download a clean copy.</p>
+    <span class="go">Open tool →</span>
+  </a>
+  <a class="card" href="./site2-link-safe/">
+    <div class="ico">🛡️</div>
+    <h2>Is This Link Safe?</h2>
+    <p>Paste any URL and instantly check it for phishing signals: punycode homograph
+       domains, lookalike brand names, hidden credentials, and more.</p>
+    <span class="go">Open tool →</span>
+  </a>
+  <a class="card" href="./site3-yt-error-decoder/">
+    <div class="ico">▶️</div>
+    <h2>YouTube Error Decoder</h2>
+    <p>Paste a cryptic YouTube error message or code and get the plain-English cause
+       plus concrete steps to fix it.</p>
+    <span class="go">Open tool →</span>
+  </a>
+</div>
+
+<div class="about">
+  <h2>Why these tools are private</h2>
+  <p>Each tool here is a single self-contained web page. All the work — reading a photo's
+     metadata, parsing a URL, matching an error string — happens in JavaScript running on
+     your own device. There is no server receiving your input, because there is nothing
+     to send it to.</p>
+  <p>That means you can check a sensitive photo or a suspicious link without handing
+     either one to a third party. Nothing is stored, logged, or transmitted.</p>
+</div>
+
+<div class="adslot">Advertisement</div>
+
+<footer>Free tools · no signup · no uploads<br>More tools added regularly.</footer>
+</div>
+</body>
+</html>
